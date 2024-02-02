@@ -25,8 +25,6 @@ export default class HolbertonCourse {
   get students() {
     return this._students
   }
-
-
   validateString(value, attribute) {
     if (typeof value !== 'string') {
       throw new Error(`${attribute} must be a string`);
